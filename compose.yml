@@ -1,0 +1,6 @@
+base:
+    image: kohey/nginx
+    cpu_shares: 200
+    mem_limit: 236870912b
+    ports:
+      - 8888:80
